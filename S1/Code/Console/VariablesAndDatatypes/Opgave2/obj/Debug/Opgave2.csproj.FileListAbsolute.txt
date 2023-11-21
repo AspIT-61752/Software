@@ -1,0 +1,7 @@
+C:\Software\S1\Code\Console\VariablesAndDatatypes\Opgave2\bin\Debug\Opgave2.exe.config
+C:\Software\S1\Code\Console\VariablesAndDatatypes\Opgave2\bin\Debug\Opgave2.exe
+C:\Software\S1\Code\Console\VariablesAndDatatypes\Opgave2\bin\Debug\Opgave2.pdb
+C:\Software\S1\Code\Console\VariablesAndDatatypes\Opgave2\obj\Debug\Opgave2.csproj.AssemblyReference.cache
+C:\Software\S1\Code\Console\VariablesAndDatatypes\Opgave2\obj\Debug\Opgave2.csproj.CoreCompileInputs.cache
+C:\Software\S1\Code\Console\VariablesAndDatatypes\Opgave2\obj\Debug\Opgave2.exe
+C:\Software\S1\Code\Console\VariablesAndDatatypes\Opgave2\obj\Debug\Opgave2.pdb
