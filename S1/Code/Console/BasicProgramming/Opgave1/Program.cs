@@ -1,6 +1,7 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Reflection;
 using System.Threading;
 
@@ -33,6 +34,16 @@ namespace Opgave1
         sOverWeightF = 8,
     }
 
+    public static class CLIVariables
+    {
+        public static string CLIChoice = " ";
+
+        public static bool CLIStop = false;
+        public const string CLISpacing = "\t  ";
+        public const string CLIInput = "\t> ";
+
+    }
+
     public enum CLIChoices
     {
         exit = 0,
@@ -61,9 +72,12 @@ namespace Opgave1
             //ConvertReadLine();
             //NameAndHobby();
             //BMICalc();
-            Console.Write("gaming, ");
+
+            /*Console.Write("gaming, ");
             CLIColoredText("more ");
             Console.Write("and something else");
+            CLIMenu();*/
+
             CLIMenu();
 
             // Wait for input
@@ -322,8 +336,116 @@ namespace Opgave1
 
         // 6.5 START
 
-        // TODO: Rewrite all of this. I read the assignment wrong. 
         static void CLIMenu()
+        {
+            /*
+             Commands I want to make:
+             clear
+             date
+             stop
+             */
+
+            // Start
+            Console.Clear();
+            //Console.Write(
+            //    "***********************\n" +
+            //    "** Tobsi CLI         **" +
+            //    "** Fuled by PepsiMax **" +
+            //    "***********************\n");
+
+            Console.Write(
+                "\n" +
+                " ***********************\n" +
+                " ** Tobsi CLI         **\n" +
+                " ** Fueled by Pepsi");
+
+            CLIColoredTextRed("Max");
+
+            Console.Write(" **\n" +
+                " ***********************\n\n" +
+                "\ttype help to display commands\n");
+
+            while (!CLIVariables.CLIStop == true)
+            {
+                CLIMenuHandler();
+            }
+        }
+
+        static void CLIMenuHandler()
+        {
+            Console.Write(CLIVariables.CLIInput);
+            CLIVariables.CLIChoice = Console.ReadLine();
+
+            switch (CLIVariables.CLIChoice)
+            {
+                case "clear":
+                    CLIClear();
+                    break;
+                case "stop":
+                    CLIVariables.CLIStop = true;
+                    Console.WriteLine("\n");
+                    break;
+                case "help":
+                    CLIPrintOptions();
+                    break;
+                case "date":
+                    Console.WriteLine($"{CLIVariables.CLISpacing}Local date: {DateTime.Now}\n");
+                    break;
+                case "for":
+                    CLIFor();
+                    break;
+                case "div":
+                    Division();
+                    break;
+                case "fore":
+                    Fore();
+                    break;
+                default:
+                    Console.WriteLine($"\t{CLIVariables.CLIChoice} is not a command\n");
+                    break;
+            }
+        }
+
+        static void CLIClear()
+        {
+            Console.Clear();
+        }
+
+        static void CLIFor()
+        {
+            Random random = new Random();
+            int rand = random.Next(1, 100); // Gives a random number.
+            int res = 0;
+
+            for (int i = 1; i < 11; i++)
+            {
+                res = i * rand;
+                Console.WriteLine($"{CLIVariables.CLISpacing}{rand} * {i} = {res}");
+            }
+        }
+
+        static void CLIPrintOptions()
+        {
+            Console.WriteLine(
+                $"{CLIVariables.CLISpacing}help\n" +
+                $"{CLIVariables.CLISpacing} Writes out every command to the console.\n" +
+                $"{CLIVariables.CLISpacing}clear\n" +
+                $"{CLIVariables.CLISpacing} Clears the screen.\n" +
+                $"{CLIVariables.CLISpacing}stop\n" +
+                $"{CLIVariables.CLISpacing} Stops the CLI.\n" +
+                $"{CLIVariables.CLISpacing}date\n" +
+                $"{CLIVariables.CLISpacing} Writes the current date and time to the console.\n" +
+                $"{CLIVariables.CLISpacing}for\n" +
+                $"{CLIVariables.CLISpacing} A simple for-loop \"demo\".\n" +
+                $"{CLIVariables.CLISpacing}div\n" +
+                $"{CLIVariables.CLISpacing} A simple division program.\n" +
+                $"{CLIVariables.CLISpacing}fore\n" +
+                $"{CLIVariables.CLISpacing} A for-each \"demo\".\n"
+                );
+        }
+
+        // TODO: Rewrite all of this. I read the assignment wrong. 
+        /*static void CLIMenu()
         {
             CLIPrintMenu();
 
@@ -339,28 +461,74 @@ namespace Opgave1
         {
             Console.Clear(); // Clears the console
 
-            Console.WriteLine("=== Menu ===");
+            Console.WriteLine("=== Menu ===");*/
 
-            /*
-             === Menu ===
-            empty
-                1)  Option 1
-                2)  Option 2
-                0)  Exit
-             */
+        /*
+         === Menu ===
+        empty
+            1)  Option 1
+            2)  Option 2
+            0)  Exit
+         */
 
-            CLIColoredText(" 0");
-            Console.WriteLine(") Exit");
-        }
-
-        static void CLIColoredText(string msg)
-        {
-            Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.Write(msg);
-            Console.ForegroundColor = ConsoleColor.Gray;
-        }
+        /*CLIColoredText(" 0");
+        Console.WriteLine(") Exit");
+        }*/
 
         // 6.5 END
+
+        // 6.9
+        static void Division()
+        {
+            double firstNumber = 0;
+            double secondNumber = 0;
+            double result = 0;
+
+            bool resume = false; // Couldn't use continue
+
+            // Number 1
+            while (resume == false)
+            {
+                Console.Write($"\n{CLIVariables.CLISpacing}Write the numerator here:\n{CLIVariables.CLIInput}");
+                if (double.TryParse(Console.ReadLine(), out firstNumber))
+                {
+                    resume = true;
+                }
+                else
+                {
+                    CLIColoredTextRed($"\n{CLIVariables.CLISpacing}Parsing error.\n");
+                }
+            }
+
+            // Resets the boolean so it can be used again
+            resume = false;
+
+            // Number 2
+            while (resume == false)
+            {
+                Console.Write($"\n{CLIVariables.CLISpacing}Write the denominator here:\n{CLIVariables.CLIInput}");
+                if (double.TryParse(Console.ReadLine(), out secondNumber))
+                {
+                    resume = true;
+                }
+                else
+                {
+                    CLIColoredTextRed($"\n{CLIVariables.CLISpacing}Parsing error.\n");
+                }
+            }
+
+            // Calculates and writes the result
+            result = firstNumber / secondNumber;
+            Console.WriteLine($"\n{CLIVariables.CLISpacing}{firstNumber} / {secondNumber} = {result}");
+        }
+        
+        // 6.10
+        static void Fore()
+        {
+
+        }
+
+        // These methods are used a lot
 
         // From https://codereview.stackexchange.com/questions/157871/method-that-returns-description-attribute-of-enum-value
         public static string GetEnumDescription(Enum value)
@@ -375,6 +543,21 @@ namespace Opgave1
         public static void dbgStr(string variableName, string value)
         {
             Console.WriteLine($"{variableName}: {value}");
+        }
+
+        // CLI methods
+        static void CLIColoredText(string msg)
+        {
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.Write(msg);
+            Console.ForegroundColor = ConsoleColor.Gray;
+        }
+
+        static void CLIColoredTextRed(string msg)
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.Write(msg);
+            Console.ForegroundColor = ConsoleColor.Gray;
         }
 
     }

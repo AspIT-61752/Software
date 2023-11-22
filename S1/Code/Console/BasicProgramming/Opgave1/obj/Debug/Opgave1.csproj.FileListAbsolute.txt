@@ -5,3 +5,10 @@ C:\Software\S1\Code\Console\BasicProgramming\Opgave1\obj\Debug\Opgave1.csproj.As
 C:\Software\S1\Code\Console\BasicProgramming\Opgave1\obj\Debug\Opgave1.csproj.CoreCompileInputs.cache
 C:\Software\S1\Code\Console\BasicProgramming\Opgave1\obj\Debug\Opgave1.exe
 C:\Software\S1\Code\Console\BasicProgramming\Opgave1\obj\Debug\Opgave1.pdb
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\BasicProgramming\Opgave1\bin\Debug\Opgave1.exe.config
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\BasicProgramming\Opgave1\bin\Debug\Opgave1.exe
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\BasicProgramming\Opgave1\bin\Debug\Opgave1.pdb
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\BasicProgramming\Opgave1\obj\Debug\Opgave1.csproj.AssemblyReference.cache
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\BasicProgramming\Opgave1\obj\Debug\Opgave1.csproj.CoreCompileInputs.cache
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\BasicProgramming\Opgave1\obj\Debug\Opgave1.exe
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\BasicProgramming\Opgave1\obj\Debug\Opgave1.pdb
