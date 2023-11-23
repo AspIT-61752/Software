@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace Classes
 {
@@ -52,6 +53,7 @@ namespace Classes
 
             public static List<Commands> commandsList = new List<Commands>();
         }
+
         /// <summary>
         /// Starts and runs the CLI.
         /// </summary>
@@ -79,6 +81,9 @@ namespace Classes
             Variables.commandsList.Add(new Commands("stop", "stops the CLI."));
             Variables.commandsList.Add(new Commands("date", "Writes the current date and time to the console."));
             Variables.commandsList.Add(new Commands("for", "A simple for-loop \"demo\"."));
+
+            // Only for this assignment (Classes 03)
+            Variables.commandsList.Add(new Commands("printarray", "Prints the player array to the console."));
 
             // Writes the "Welcome" msg
             Console.Write(
@@ -126,8 +131,17 @@ namespace Classes
                 case "for":
                     ForL();
                     break;
+                case "printarray":
+                    Program.PrintArray();
+                    break;
+                case "play":
+                    Program.player.Play();
+                    break;
+                case "playmu":
+                    Program.PlayMult();
+                    break;
                 default:
-                    Console.WriteLine($"\t{Variables.choice} is not a command\n");
+                    Console.WriteLine($"{Variables.spacing}{Variables.choice} is not a command\n");
                     break;
             }
         }
@@ -168,6 +182,57 @@ namespace Classes
             }
         }
 
+        public static string GetUserInputString(string msg)
+        {
+            
+            Console.Write($"\n{Variables.spacing}{msg}\n{Variables.input}");
+            return Console.ReadLine();
+        }
+
+        public static double GetUserInputDouble(string msg)
+        {
+            double userInput = 0;
+
+            bool resume = false; // Couldn't use continue
+
+            while (resume == false)
+            {
+                Console.Write($"\n{Variables.spacing}{msg}\n{Variables.input}");
+                if (double.TryParse(Console.ReadLine(), out userInput))
+                {
+                    resume = true;
+                }
+                else
+                {
+                    CLIColoredTextRed($"\n{Variables.spacing}Parsing error.\n");
+                }
+            }
+
+            return userInput;
+        }
+
+        public static int GetUserInputInt(string msg)
+        {
+            int userInput = 0;
+
+            bool resume = false; // Couldn't use continue
+
+            while (resume == false)
+            {
+                Console.Write($"\n{Variables.spacing}{msg}\n{Variables.input}");
+                if (int.TryParse(Console.ReadLine(), out userInput))
+                {
+                    resume = true;
+                }
+                else
+                {
+                    CLIColoredTextRed($"\n{Variables.spacing}Parsing error.\n");
+                }
+            }
+
+            return userInput;
+        }
+
         // These methods are used a lot
 
         /// <summary>
@@ -193,3 +258,5 @@ namespace Classes
         }
     }
 }
+
+
