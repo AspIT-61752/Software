@@ -1,0 +1,7 @@
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\Opgave 03 Klasser I C#\Classes\bin\Debug\Classes.exe.config
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\Opgave 03 Klasser I C#\Classes\bin\Debug\Classes.exe
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\Opgave 03 Klasser I C#\Classes\bin\Debug\Classes.pdb
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\Opgave 03 Klasser I C#\Classes\obj\Debug\Classes.csproj.AssemblyReference.cache
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\Opgave 03 Klasser I C#\Classes\obj\Debug\Classes.csproj.CoreCompileInputs.cache
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\Opgave 03 Klasser I C#\Classes\obj\Debug\Classes.exe
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\Opgave 03 Klasser I C#\Classes\obj\Debug\Classes.pdb

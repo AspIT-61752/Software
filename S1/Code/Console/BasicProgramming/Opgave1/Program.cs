@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Linq.Expressions;
@@ -34,6 +35,40 @@ namespace Opgave1
         sOverWeightF = 8,
     }
 
+    /// <summary>
+    /// A class used for the commands list.
+    /// </summary>
+    public class Commands
+    {
+        //public string command { get; set; }
+
+        //public string description { get; set; }
+
+        private string command;
+        private string description;
+
+        public Commands(string command, string description)
+        {
+            this.command = command;
+            this.description = description;
+        }
+
+        public string Command
+        {
+            get { return command; }
+            set { command = value; }
+        }
+
+        public string Description
+        {
+            get { return description; }
+            set { description = value; }
+        }
+    }
+
+    /// <summary>
+    /// Contains every variable that's used for the CLI methods.
+    /// </summary>
     public static class CLIVariables
     {
         public static string CLIChoice = " ";
@@ -42,15 +77,7 @@ namespace Opgave1
         public const string CLISpacing = "\t  ";
         public const string CLIInput = "\t> ";
 
-    }
-
-    public enum CLIChoices
-    {
-        exit = 0,
-        start = 1,
-        about = 2,
-        randomNumber = 3,
-
+        public static List<Commands> commandsList = new List<Commands>();
     }
 
     internal class Program
@@ -60,6 +87,7 @@ namespace Opgave1
 
         static void Main(string[] args)
         {
+
             // This is for consistency.
             Console.BackgroundColor = ConsoleColor.Black;
             Console.ForegroundColor = ConsoleColor.Gray;
@@ -73,14 +101,9 @@ namespace Opgave1
             //NameAndHobby();
             //BMICalc();
 
-            /*Console.Write("gaming, ");
-            CLIColoredText("more ");
-            Console.Write("and something else");
-            CLIMenu();*/
-
             CLIMenu();
 
-            // Wait for input
+            // Waits for input
             Console.ReadKey();
         }
 
@@ -336,6 +359,9 @@ namespace Opgave1
 
         // 6.5 START
 
+        /// <summary>
+        /// Starts and runs the CLI.
+        /// </summary>
         static void CLIMenu()
         {
             /*
@@ -353,6 +379,15 @@ namespace Opgave1
             //    "** Fuled by PepsiMax **" +
             //    "***********************\n");
 
+            // TODO: Maybe add this to a CLIInit() method. 
+            // Adds every command with it's description to the list of commands
+            CLIVariables.commandsList.Add(new Commands("help", "Writes out every command to the console."));
+            CLIVariables.commandsList.Add(new Commands("clear", "Clears the screen."));
+            CLIVariables.commandsList.Add(new Commands("stop", "Stops the CLI."));
+            CLIVariables.commandsList.Add(new Commands("date", "Writes the current date and time to the console."));
+            CLIVariables.commandsList.Add(new Commands("for", "A simple for-loop \"demo\"."));
+
+            // Writes the "Welcome" msg
             Console.Write(
                 "\n" +
                 " ***********************\n" +
@@ -365,12 +400,16 @@ namespace Opgave1
                 " ***********************\n\n" +
                 "\ttype help to display commands\n");
 
+            // Starts the loop
             while (!CLIVariables.CLIStop == true)
             {
                 CLIMenuHandler();
             }
         }
 
+        /// <summary>
+        /// Reads the users input and executes the command.
+        /// </summary>
         static void CLIMenuHandler()
         {
             Console.Write(CLIVariables.CLIInput);
@@ -397,20 +436,23 @@ namespace Opgave1
                 case "div":
                     Division();
                     break;
-                case "fore":
-                    Fore();
-                    break;
                 default:
                     Console.WriteLine($"\t{CLIVariables.CLIChoice} is not a command\n");
                     break;
             }
         }
 
+        /// <summary>
+        /// Clears the console. Works like cls.
+        /// </summary>
         static void CLIClear()
         {
             Console.Clear();
         }
 
+        /// <summary>
+        /// This is a test command.
+        /// </summary>
         static void CLIFor()
         {
             Random random = new Random();
@@ -424,24 +466,16 @@ namespace Opgave1
             }
         }
 
+        /// <summary>
+        /// Prints every command with a description from the commands list.
+        /// </summary>
         static void CLIPrintOptions()
         {
-            Console.WriteLine(
-                $"{CLIVariables.CLISpacing}help\n" +
-                $"{CLIVariables.CLISpacing} Writes out every command to the console.\n" +
-                $"{CLIVariables.CLISpacing}clear\n" +
-                $"{CLIVariables.CLISpacing} Clears the screen.\n" +
-                $"{CLIVariables.CLISpacing}stop\n" +
-                $"{CLIVariables.CLISpacing} Stops the CLI.\n" +
-                $"{CLIVariables.CLISpacing}date\n" +
-                $"{CLIVariables.CLISpacing} Writes the current date and time to the console.\n" +
-                $"{CLIVariables.CLISpacing}for\n" +
-                $"{CLIVariables.CLISpacing} A simple for-loop \"demo\".\n" +
-                $"{CLIVariables.CLISpacing}div\n" +
-                $"{CLIVariables.CLISpacing} A simple division program.\n" +
-                $"{CLIVariables.CLISpacing}fore\n" +
-                $"{CLIVariables.CLISpacing} A for-each \"demo\".\n"
-                );
+
+            foreach (var print in CLIVariables.commandsList)
+            {
+                Console.WriteLine("{0}{1}\n{2} {3}", CLIVariables.CLISpacing, print.Command, CLIVariables.CLISpacing, print.Description);
+            }
         }
 
         // TODO: Rewrite all of this. I read the assignment wrong. 
@@ -546,6 +580,10 @@ namespace Opgave1
         }
 
         // CLI methods
+        /// <summary>
+        /// Prints a string of text to the console. Color: Cyan
+        /// </summary>
+        /// <param name="msg">Will be printed to the console.</param>
         static void CLIColoredText(string msg)
         {
             Console.ForegroundColor = ConsoleColor.Cyan;
@@ -553,6 +591,10 @@ namespace Opgave1
             Console.ForegroundColor = ConsoleColor.Gray;
         }
 
+        /// <summary>
+        /// Prints a string of text to the console. Color: Red
+        /// </summary>
+        /// <param name="msg">Will be printed to the console.</param>
         static void CLIColoredTextRed(string msg)
         {
             Console.ForegroundColor = ConsoleColor.Red;
