@@ -1,0 +1,15 @@
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\WpfAppIntroduktion\WpfAppIntroduktion\bin\Debug\WpfAppIntroduktion.exe.config
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\WpfAppIntroduktion\WpfAppIntroduktion\bin\Debug\WpfAppIntroduktion.exe
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\WpfAppIntroduktion\WpfAppIntroduktion\bin\Debug\WpfAppIntroduktion.pdb
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\WpfAppIntroduktion\WpfAppIntroduktion\obj\Debug\WpfAppIntroduktion.csproj.AssemblyReference.cache
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\WpfAppIntroduktion\WpfAppIntroduktion\obj\Debug\MainWindow.g.cs
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\WpfAppIntroduktion\WpfAppIntroduktion\obj\Debug\App.g.cs
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\WpfAppIntroduktion\WpfAppIntroduktion\obj\Debug\WpfAppIntroduktion_MarkupCompile.cache
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\WpfAppIntroduktion\WpfAppIntroduktion\obj\Debug\WpfAppIntroduktion_MarkupCompile.lref
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\WpfAppIntroduktion\WpfAppIntroduktion\obj\Debug\MainWindow.baml
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\WpfAppIntroduktion\WpfAppIntroduktion\obj\Debug\WpfAppIntroduktion.g.resources
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\WpfAppIntroduktion\WpfAppIntroduktion\obj\Debug\WpfAppIntroduktion.Properties.Resources.resources
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\WpfAppIntroduktion\WpfAppIntroduktion\obj\Debug\WpfAppIntroduktion.csproj.GenerateResource.cache
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\WpfAppIntroduktion\WpfAppIntroduktion\obj\Debug\WpfAppIntroduktion.csproj.CoreCompileInputs.cache
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\WpfAppIntroduktion\WpfAppIntroduktion\obj\Debug\WpfAppIntroduktion.exe
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\WpfAppIntroduktion\WpfAppIntroduktion\obj\Debug\WpfAppIntroduktion.pdb

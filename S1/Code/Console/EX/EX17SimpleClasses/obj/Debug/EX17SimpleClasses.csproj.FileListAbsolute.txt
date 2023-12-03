@@ -1,0 +1,7 @@
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\EX\EX17SimpleClasses\bin\Debug\EX17SimpleClasses.exe.config
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\EX\EX17SimpleClasses\bin\Debug\EX17SimpleClasses.exe
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\EX\EX17SimpleClasses\bin\Debug\EX17SimpleClasses.pdb
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\EX\EX17SimpleClasses\obj\Debug\EX17SimpleClasses.csproj.AssemblyReference.cache
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\EX\EX17SimpleClasses\obj\Debug\EX17SimpleClasses.csproj.CoreCompileInputs.cache
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\EX\EX17SimpleClasses\obj\Debug\EX17SimpleClasses.exe
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\EX\EX17SimpleClasses\obj\Debug\EX17SimpleClasses.pdb

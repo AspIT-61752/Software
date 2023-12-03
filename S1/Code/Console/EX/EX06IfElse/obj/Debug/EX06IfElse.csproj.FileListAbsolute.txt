@@ -1,0 +1,7 @@
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\EX\EX06IfElse\bin\Debug\EX06IfElse.exe.config
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\EX\EX06IfElse\bin\Debug\EX06IfElse.exe
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\EX\EX06IfElse\bin\Debug\EX06IfElse.pdb
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\EX\EX06IfElse\obj\Debug\EX06IfElse.csproj.AssemblyReference.cache
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\EX\EX06IfElse\obj\Debug\EX06IfElse.csproj.CoreCompileInputs.cache
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\EX\EX06IfElse\obj\Debug\EX06IfElse.exe
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\EX\EX06IfElse\obj\Debug\EX06IfElse.pdb

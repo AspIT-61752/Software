@@ -1,0 +1,7 @@
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\EX\EX07BooleanAlgebra\bin\Debug\EX07BooleanAlgebra.exe.config
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\EX\EX07BooleanAlgebra\bin\Debug\EX07BooleanAlgebra.exe
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\EX\EX07BooleanAlgebra\bin\Debug\EX07BooleanAlgebra.pdb
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\EX\EX07BooleanAlgebra\obj\Debug\EX07BooleanAlgebra.csproj.AssemblyReference.cache
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\EX\EX07BooleanAlgebra\obj\Debug\EX07BooleanAlgebra.csproj.CoreCompileInputs.cache
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\EX\EX07BooleanAlgebra\obj\Debug\EX07BooleanAlgebra.exe
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\EX\EX07BooleanAlgebra\obj\Debug\EX07BooleanAlgebra.pdb

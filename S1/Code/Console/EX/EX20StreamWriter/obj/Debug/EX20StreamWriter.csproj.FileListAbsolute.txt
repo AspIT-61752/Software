@@ -1,0 +1,7 @@
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\EX\EX20StreamWriter\bin\Debug\EX20StreamWriter.exe.config
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\EX\EX20StreamWriter\bin\Debug\EX20StreamWriter.exe
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\EX\EX20StreamWriter\bin\Debug\EX20StreamWriter.pdb
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\EX\EX20StreamWriter\obj\Debug\EX20StreamWriter.csproj.AssemblyReference.cache
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\EX\EX20StreamWriter\obj\Debug\EX20StreamWriter.csproj.CoreCompileInputs.cache
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\EX\EX20StreamWriter\obj\Debug\EX20StreamWriter.exe
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\EX\EX20StreamWriter\obj\Debug\EX20StreamWriter.pdb

@@ -10,13 +10,19 @@ namespace Classes
     
     internal class Player
     {
-        string name;
+        private string name;
         int score;
 
         public Player(string name, int score)
         {
             this.name = name;
             this.score = score;
+        }
+
+        public string Name
+        {
+            get { return name; }
+            set { name = value; }
         }
 
         // 4.2

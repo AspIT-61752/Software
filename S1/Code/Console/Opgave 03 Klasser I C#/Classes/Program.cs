@@ -74,7 +74,7 @@ namespace Classes
                 }
             }
 
-            // Gives a name to the players
+            // Gives a name to the player(s)
             Console.WriteLine($"{CLI.Variables.spacing}Naming the players");
 
             for (int i = 0; i < playerCount; i++)

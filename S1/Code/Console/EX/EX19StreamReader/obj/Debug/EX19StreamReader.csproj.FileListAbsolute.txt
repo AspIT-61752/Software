@@ -1,0 +1,7 @@
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\EX\EX19StreamReader\bin\Debug\EX19StreamReader.exe.config
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\EX\EX19StreamReader\bin\Debug\EX19StreamReader.exe
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\EX\EX19StreamReader\bin\Debug\EX19StreamReader.pdb
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\EX\EX19StreamReader\obj\Debug\EX19StreamReader.csproj.AssemblyReference.cache
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\EX\EX19StreamReader\obj\Debug\EX19StreamReader.csproj.CoreCompileInputs.cache
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\EX\EX19StreamReader\obj\Debug\EX19StreamReader.exe
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\EX\EX19StreamReader\obj\Debug\EX19StreamReader.pdb

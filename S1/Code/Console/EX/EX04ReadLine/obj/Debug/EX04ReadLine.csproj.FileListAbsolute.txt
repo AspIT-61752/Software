@@ -1,0 +1,7 @@
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\EX\EX04ReadLine\bin\Debug\EX04ReadLine.exe.config
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\EX\EX04ReadLine\bin\Debug\EX04ReadLine.exe
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\EX\EX04ReadLine\bin\Debug\EX04ReadLine.pdb
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\EX\EX04ReadLine\obj\Debug\EX04ReadLine.csproj.AssemblyReference.cache
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\EX\EX04ReadLine\obj\Debug\EX04ReadLine.csproj.CoreCompileInputs.cache
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\EX\EX04ReadLine\obj\Debug\EX04ReadLine.exe
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\Console\EX\EX04ReadLine\obj\Debug\EX04ReadLine.pdb
