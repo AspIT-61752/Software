@@ -88,14 +88,14 @@ namespace Classes
             // Writes the "Welcome" msg
             Console.Write(
                 "\n" +
-                " ***********************\n" +
-                " ** Tobsi CLI         **\n" +
+                " ************************\n" +
+                " ** Tobsi CLI          **\n" +
                 " ** Fueled by Pepsi");
 
             CLIColoredTextRed("Max");
 
             Console.Write(" **\n" +
-                " ***********************\n\n" +
+                " ************************\n\n" +
                 "\ttype help to display commands\n");
 
             // Starts the loop

@@ -58,8 +58,12 @@ namespace WpfAppIntroduktion
 
         private void buttonOpg18_Click(object sender, RoutedEventArgs e)
         {
+            // Crashes if you use any of the other buttons first, and then press this one.
+            // Or if you press this one first and then press any other button.
+            // It might be because of the way the data is being added to the listbox.
+            // (This method returns a list of strings)
+            // ¯\_(ツ)_/¯
             listBoxRes.ItemsSource = classBIZ.Delopgave18();
-            //listBoxRes.DisplayMemberPath = "";
         }
 
         private void buttonOpg19_Click(object sender, RoutedEventArgs e)
