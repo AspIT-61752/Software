@@ -13,3 +13,21 @@ C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\WpfAppIntroduktion\W
 C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\WpfAppIntroduktion\WpfAppIntroduktion\obj\Debug\WpfAppIntroduktion.csproj.CoreCompileInputs.cache
 C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\WpfAppIntroduktion\WpfAppIntroduktion\obj\Debug\WpfAppIntroduktion.exe
 C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\WpfAppIntroduktion\WpfAppIntroduktion\obj\Debug\WpfAppIntroduktion.pdb
+C:\Software\Software\S1\Code\WPF\WpfAppIntroduktion\WpfAppIntroduktion\bin\Debug\WpfAppIntroduktion.exe.config
+C:\Software\Software\S1\Code\WPF\WpfAppIntroduktion\WpfAppIntroduktion\bin\Debug\WpfAppIntroduktion.exe
+C:\Software\Software\S1\Code\WPF\WpfAppIntroduktion\WpfAppIntroduktion\bin\Debug\WpfAppIntroduktion.pdb
+C:\Software\Software\S1\Code\WPF\WpfAppIntroduktion\WpfAppIntroduktion\bin\Debug\BIZ.dll
+C:\Software\Software\S1\Code\WPF\WpfAppIntroduktion\WpfAppIntroduktion\bin\Debug\BIZ.pdb
+C:\Software\Software\S1\Code\WPF\WpfAppIntroduktion\WpfAppIntroduktion\obj\Debug\WpfAppIntroduktion.csproj.AssemblyReference.cache
+C:\Software\Software\S1\Code\WPF\WpfAppIntroduktion\WpfAppIntroduktion\obj\Debug\MainWindow.g.cs
+C:\Software\Software\S1\Code\WPF\WpfAppIntroduktion\WpfAppIntroduktion\obj\Debug\App.g.cs
+C:\Software\Software\S1\Code\WPF\WpfAppIntroduktion\WpfAppIntroduktion\obj\Debug\WpfAppIntroduktion_MarkupCompile.cache
+C:\Software\Software\S1\Code\WPF\WpfAppIntroduktion\WpfAppIntroduktion\obj\Debug\WpfAppIntroduktion_MarkupCompile.lref
+C:\Software\Software\S1\Code\WPF\WpfAppIntroduktion\WpfAppIntroduktion\obj\Debug\MainWindow.baml
+C:\Software\Software\S1\Code\WPF\WpfAppIntroduktion\WpfAppIntroduktion\obj\Debug\WpfAppIntroduktion.g.resources
+C:\Software\Software\S1\Code\WPF\WpfAppIntroduktion\WpfAppIntroduktion\obj\Debug\WpfAppIntroduktion.Properties.Resources.resources
+C:\Software\Software\S1\Code\WPF\WpfAppIntroduktion\WpfAppIntroduktion\obj\Debug\WpfAppIntroduktion.csproj.GenerateResource.cache
+C:\Software\Software\S1\Code\WPF\WpfAppIntroduktion\WpfAppIntroduktion\obj\Debug\WpfAppIntroduktion.csproj.CoreCompileInputs.cache
+C:\Software\Software\S1\Code\WPF\WpfAppIntroduktion\WpfAppIntroduktion\obj\Debug\WpfAppIntroduktion.csproj.CopyComplete
+C:\Software\Software\S1\Code\WPF\WpfAppIntroduktion\WpfAppIntroduktion\obj\Debug\WpfAppIntroduktion.exe
+C:\Software\Software\S1\Code\WPF\WpfAppIntroduktion\WpfAppIntroduktion\obj\Debug\WpfAppIntroduktion.pdb

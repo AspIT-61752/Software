@@ -1,16 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Controls;
 
 namespace WpfAppIntroduktion
 {
-    internal class ClassBIZ
+    internal class oldClassBIZ
     {
-        public ClassBIZ()
+        public oldClassBIZ()
         {
 
         }
@@ -141,11 +137,11 @@ namespace WpfAppIntroduktion
                 listBox.Items.Add($"{tempRandomNumber}");
                 listAverage.Add(tempRandomNumber);
             }
-                // Spacing
-                listBox.Items.Add($"");
+            // Spacing
+            listBox.Items.Add($"");
 
-                // Adds the average to the list
-                listBox.Items.Add($"Gennemsnit: {GetAverageValue(listAverage)}");
+            // Adds the average to the list
+            listBox.Items.Add($"Gennemsnit: {GetAverageValue(listAverage)}");
         }
 
         public void Delopgave17(ListBox listBox)

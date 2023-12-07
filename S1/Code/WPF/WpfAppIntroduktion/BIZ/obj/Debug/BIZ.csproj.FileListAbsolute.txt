@@ -1,0 +1,6 @@
+C:\Software\Software\S1\Code\WPF\WpfAppIntroduktion\BIZ\bin\Debug\BIZ.dll
+C:\Software\Software\S1\Code\WPF\WpfAppIntroduktion\BIZ\bin\Debug\BIZ.pdb
+C:\Software\Software\S1\Code\WPF\WpfAppIntroduktion\BIZ\obj\Debug\BIZ.csproj.AssemblyReference.cache
+C:\Software\Software\S1\Code\WPF\WpfAppIntroduktion\BIZ\obj\Debug\BIZ.csproj.CoreCompileInputs.cache
+C:\Software\Software\S1\Code\WPF\WpfAppIntroduktion\BIZ\obj\Debug\BIZ.dll
+C:\Software\Software\S1\Code\WPF\WpfAppIntroduktion\BIZ\obj\Debug\BIZ.pdb
