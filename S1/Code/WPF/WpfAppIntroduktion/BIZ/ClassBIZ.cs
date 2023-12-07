@@ -45,6 +45,7 @@ namespace BIZ
                 inListBox.Items.Add(rand.Next(100000, 1000001));
             }
         }
+
         public void Opgave4(ListBox inListBox)
         {
             // The random object
