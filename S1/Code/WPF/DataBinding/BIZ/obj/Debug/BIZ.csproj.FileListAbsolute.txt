@@ -1,0 +1,9 @@
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\DataBinding\BIZ\bin\Debug\BIZ.dll
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\DataBinding\BIZ\bin\Debug\BIZ.pdb
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\DataBinding\BIZ\bin\Debug\Repository.dll
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\DataBinding\BIZ\bin\Debug\Repository.pdb
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\DataBinding\BIZ\obj\Debug\BIZ.csproj.AssemblyReference.cache
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\DataBinding\BIZ\obj\Debug\BIZ.csproj.CoreCompileInputs.cache
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\DataBinding\BIZ\obj\Debug\BIZ.csproj.CopyComplete
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\DataBinding\BIZ\obj\Debug\BIZ.dll
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\DataBinding\BIZ\obj\Debug\BIZ.pdb

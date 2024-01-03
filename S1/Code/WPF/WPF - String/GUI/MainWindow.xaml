@@ -1,0 +1,133 @@
+﻿<Window x:Class="GUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GUI"
+        mc:Ignorable="d"
+        Title="String Project" Height="750" Width="1200">
+    <Grid x:Name="MainGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <!-- Top part of the GUI -->
+        <TextBox x:Name="leftTextBox"
+                 Grid.Column="0" Grid.Row="0"
+                 Grid.ColumnSpan="2"
+                 Grid.RowSpan="9"
+                 Margin="8"
+                 TextWrapping="Wrap"
+                 VerticalScrollBarVisibility="Auto"
+                 VerticalAlignment="Stretch"
+                 HorizontalAlignment="Stretch"
+                 AcceptsReturn="True"
+                 Text="{Binding strInText.strData, UpdateSourceTrigger=PropertyChanged}"
+        />
+
+        <TextBox x:Name="rightTextBox"
+                 Grid.Column="2" Grid.Row="0"
+                 Grid.ColumnSpan="2"
+                 Grid.RowSpan="9"
+                 Margin="8"
+                 TextWrapping="Wrap"
+                 VerticalScrollBarVisibility="Auto"
+                 VerticalAlignment="Stretch"
+                 HorizontalAlignment="Stretch"
+                 AcceptsReturn="True"
+                 Text="{Binding strOutText.strData, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"
+                 />
+
+        <!-- Bottom part of the GUI -->
+
+        <!-- Top row -->
+        <Button 
+            Grid.Column="0" 
+            Grid.Row="9"
+            Tag="1"
+            Margin="48, 6"
+            Content="Count All Lines" Click="Button_Click"
+        />
+        <Button 
+            Grid.Column="1" 
+            Grid.Row="9"
+            Tag="2"
+            Margin="48, 6"
+            Content="Count All Chars" Click="Button_Click"
+        />
+        <Button 
+            Grid.Column="2" 
+            Grid.Row="9"
+            Tag="3"
+            Margin="48, 6"
+            Content="Count All Vowels" Click="Button_Click"
+        />
+        <Button 
+            Grid.Column="3" 
+            Grid.Row="9"
+            Tag="4"
+            Margin="48, 6"
+            Content="Remove All Vowels" Click="Button_Click"
+        />
+
+        <!-- Bottom row -->
+        <Button 
+            Grid.Column="0" 
+            Grid.Row="10"
+            Tag="5"
+            Margin="48, 6"
+            Content="Search For Word" Click="Button_Click"
+        />
+        <Button 
+            Grid.Column="1" 
+            Grid.Row="10"
+            Tag="6"
+            Margin="48, 6"
+            Content="Count Length Of Words" Click="Button_Click"
+        />
+        <Button 
+            Grid.Column="2" 
+            Grid.Row="10"
+            Tag="7"
+            Margin="48, 6"
+            Content="Word Frequency Counter" Click="Button_Click"
+        />
+        <Button 
+            Grid.Column="3" 
+            Grid.Row="10"
+            Tag="8"
+            Margin="48, 6"
+            Content="Remove Last Letter If Word Is Longer Than Three Characters" Click="Button_Click"
+        />
+
+        <TextBox x:Name="filterTextBox"
+                 Grid.Column="0" Grid.Row="11"
+                 Margin="48, 6"/>
+
+        <Button 
+            Grid.Column="1" 
+            Grid.Row="11"
+            Tag="test"
+            Margin="48, 6"
+            Content="testButton" Click="Button_Click"
+        />
+
+    </Grid>
+</Window>
