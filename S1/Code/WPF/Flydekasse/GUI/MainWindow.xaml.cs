@@ -41,8 +41,9 @@ namespace GUI
         {
             switch (value)
             {
+                // case "test" is a placeholder for testing purposes
                 case "test":
-                    _Handler.Test();
+                    // Test method goes here
                     break;
                 default:
                     break;

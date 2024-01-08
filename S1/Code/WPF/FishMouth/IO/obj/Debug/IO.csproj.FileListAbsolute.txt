@@ -1,0 +1,9 @@
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\FishMouth\IO\bin\Debug\IO.dll
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\FishMouth\IO\bin\Debug\IO.pdb
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\FishMouth\IO\bin\Debug\Repository.dll
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\FishMouth\IO\bin\Debug\Repository.pdb
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\FishMouth\IO\obj\Debug\IO.csproj.AssemblyReference.cache
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\FishMouth\IO\obj\Debug\IO.csproj.CoreCompileInputs.cache
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\FishMouth\IO\obj\Debug\IO.csproj.CopyComplete
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\FishMouth\IO\obj\Debug\IO.dll
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\FishMouth\IO\obj\Debug\IO.pdb

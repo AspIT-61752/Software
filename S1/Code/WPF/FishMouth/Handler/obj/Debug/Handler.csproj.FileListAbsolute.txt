@@ -1,0 +1,11 @@
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\FishMouth\Handler\bin\Debug\Handler.dll
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\FishMouth\Handler\bin\Debug\Handler.pdb
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\FishMouth\Handler\bin\Debug\IO.dll
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\FishMouth\Handler\bin\Debug\Repository.dll
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\FishMouth\Handler\bin\Debug\IO.pdb
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\FishMouth\Handler\bin\Debug\Repository.pdb
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\FishMouth\Handler\obj\Debug\Handler.csproj.AssemblyReference.cache
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\FishMouth\Handler\obj\Debug\Handler.csproj.CoreCompileInputs.cache
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\FishMouth\Handler\obj\Debug\Handler.csproj.CopyComplete
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\FishMouth\Handler\obj\Debug\Handler.dll
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\FishMouth\Handler\obj\Debug\Handler.pdb

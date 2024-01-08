@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>4</zoom_level>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>284</x>
+      <y>112</y>
+      <w>168</w>
+      <h>456</h>
+    </coordinates>
+    <panel_attributes>BIZ
+--
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>288</x>
+      <y>592</y>
+      <w>164</w>
+      <h>68</h>
+    </coordinates>
+    <panel_attributes>IO
+--
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>36</x>
+      <y>160</y>
+      <w>180</w>
+      <h>344</h>
+    </coordinates>
+    <panel_attributes>Repository
+--
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>288</x>
+      <y>12</y>
+      <w>164</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>GUI
+--
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>368</x>
+      <y>68</y>
+      <w>12</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;130.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>212</x>
+      <y>300</y>
+      <w>80</w>
+      <h>12</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;180.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>364</x>
+      <y>564</y>
+      <w>12</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>312</x>
+      <y>604</y>
+      <w>84</w>
+      <h>52</h>
+    </coordinates>
+    <panel_attributes>ClassFileHandler
+--
+- string _path
+- Encoding enc1252 
+- Encoding encUTF8
+--
++ ReadAllTextFromFile string
++ WriteTextToFile_StreamWriter void
+
+
+layer=2
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>48</x>
+      <y>192</y>
+      <w>160</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>ClassNotify : INotifyPropertyChanged
+--
++ event PropertyChangedEventHandler PropertyChanged
+--
+# Notify(string propertyName) void
+
+
+
+layer=2
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>48</x>
+      <y>236</y>
+      <w>160</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>ClassText : ClassNotify
+--
+- string _fishText
+--
++propN fishText
++ override string ToString()
+--
+ToString() skal returnere indholdet af fischText
+
+
+layer=2
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>48</x>
+      <y>292</y>
+      <w>160</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>ClassZIP
+--
+
++ClassZIP()
++string CompressString(string inString)
++string DecompressString(string inString)
+layer=2
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>288</x>
+      <y>24</y>
+      <w>160</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>ClassZIP
+--
+- ClassBIZ BIZ
+--
+- eh Button_Crypt_Click(object sender, RoutedEventArgs e)
+
+
+layer=2
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>288</x>
+      <y>136</y>
+      <w>160</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>ClassBIZ
+--
+-ClassFileIO fileIO
+-ClassZIP zip
+--
++ClassBIZ
++prop clearText
++prop cryptText
++void MakeCryptText()
++void MakeDeCryptText()
++void MakeRolingCryptText()
++void MakeRolingDecryptText()
++void MakeExtraCryptText()
++void DecryptExtraCryptText()
+-string ReadClearTextFromFile(string path)
+-string ReadCryptTextFromFile(string path)
+-void WriteCryptTextToFile(string path)
+-void WriteClearTextToFile(string path)
+
+layer=2
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>288</x>
+      <y>264</y>
+      <w>160</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>ClassCryptText
+--
+-List&lt;string&gt; key
+-ClassDummyText CDT
+--
++ClassCryptText(List&lt;string&gt; inKey)
++string CryptString(string inString)
+-string MakeCodeOfChar(char aChar)
+
+layer=2
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>288</x>
+      <y>316</y>
+      <w>160</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>ClassDecryptText
+--
+- List&lt;string&gt; listStringKey
+--
++ClassDecryptText(List&lt;string&gt; inKey)
++string DecryptString(string inString)
+-string MakeCharOfCode(string inCharString)
+
+layer=2
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>288</x>
+      <y>368</y>
+      <w>160</w>
+      <h>56</h>
+    </coordinates>
+    <panel_attributes>ClassRolingCryptText
+--
+-List&lt;string&gt; key;
+-ClassDummyText CDT;
+-int keyJump
+--
++ClassRolingCryptText(List&lt;string&gt; inKey)
++string RolingCryptString(string inString)
+-string MakeCodeOfChar(char aChar)
+
+
+
+layer=2
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>288</x>
+      <y>432</y>
+      <w>160</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>ClassRolingDecryptText
+--
+-List&lt;string&gt; listStringKey;
+-int keyJump
+--
++string RolingDecryptString(string inString)
+-string MakeCharOfCode(string inCharString)
+-int GetRealRolingKey(int inValue)
+--
+keyJump skal initialiseres til værdien 3
+layer=2
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>288</x>
+      <y>496</y>
+      <w>160</w>
+      <h>68</h>
+    </coordinates>
+    <panel_attributes>ClassDummyText
+--
+-List&lt;string&gt; key
+-Randum ran
+-Encoding win1252  = Encoding.GetEncoding("Windows-1252");
+--
++ClassDummyText(List&lt;string&gt;)
++string MakeDummyString()
+-string MakeDummyChar()
+
+layer=2
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>128</x>
+      <y>500</y>
+      <w>168</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;330.0;400.0;330.0</additional_attributes>
+  </element>
+</diagram>
