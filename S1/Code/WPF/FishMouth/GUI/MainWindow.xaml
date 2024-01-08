@@ -52,14 +52,17 @@
             Grid.ColumnSpan="2"
             Content="Encrypt Text"
             Margin="48, 8"
+            Click="Button_Click"
             />
 
         <Button
             Grid.Column="2"
             Grid.Row="1"
+            Tag="Decrypt"
             Grid.ColumnSpan="2"
             Content="Decrypt Text"
             Margin="48, 8"
+            Click="Button_Click"
         />
 
         <Button

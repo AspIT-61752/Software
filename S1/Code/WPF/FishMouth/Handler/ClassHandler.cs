@@ -1,13 +1,7 @@
-﻿using Repository;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using IO;
-
-using Repository;
+﻿using IO;
 using Microsoft.Win32;
+using Repository;
+using System.Collections.Generic;
 
 namespace Handler
 {
@@ -15,11 +9,14 @@ namespace Handler
     {
         private ClassFileHandler fileIO;
         private ClassZIP zip;
+        List<string> cryptKey = new List<string>() { "T", "O", "R", "S", "K", "E", "M", "U", "N", "D" };
+        //List<string> cryptKey = new List<string>() { "‡", "‰", "Œ", "…", "÷", "E", "M", "U", "N", "D" };
+        //List<string> cryptKey = new List<string>() { "R", "E", "G", "U", "L", "A", "T", "I", "O", "N" };
 
         public ClassHandler()
         {
             fileIO = new ClassFileHandler();
-            zip = new ClassZIP(); 
+            zip = new ClassZIP();
             clearText = new ClassText();
             encryptedText = new ClassText();
         }
@@ -30,11 +27,16 @@ namespace Handler
         public void MakeEncryptedText()
         {
             // TODO: Add functionality here
+            ClassEncryptText CET = new ClassEncryptText(cryptKey);
+            encryptedText.fishText = CET.EncryptString(clearText.fishText);
         }
 
         public void MakeDecryptedText()
         {
             // TODO: Add functionality here
+            ClassDecryptText CDT = new ClassDecryptText(cryptKey);
+            clearText.fishText = CDT.DecryptString(encryptedText.fishText);
+
         }
 
         public void MakeRollingEncryptedText()

@@ -4,3 +4,9 @@ C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\FishMouth\Repository
 C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\FishMouth\Repository\obj\Debug\Repository.csproj.CoreCompileInputs.cache
 C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\FishMouth\Repository\obj\Debug\Repository.dll
 C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Code\WPF\FishMouth\Repository\obj\Debug\Repository.pdb
+C:\Software\Software\S1\Code\WPF\FishMouth\Repository\bin\Debug\Repository.dll
+C:\Software\Software\S1\Code\WPF\FishMouth\Repository\bin\Debug\Repository.pdb
+C:\Software\Software\S1\Code\WPF\FishMouth\Repository\obj\Debug\Repository.csproj.AssemblyReference.cache
+C:\Software\Software\S1\Code\WPF\FishMouth\Repository\obj\Debug\Repository.csproj.CoreCompileInputs.cache
+C:\Software\Software\S1\Code\WPF\FishMouth\Repository\obj\Debug\Repository.dll
+C:\Software\Software\S1\Code\WPF\FishMouth\Repository\obj\Debug\Repository.pdb
