@@ -1,0 +1,7 @@
+C:\Software\Software\S1\Kompetencetest\Console\S1-Faerdighedsdelen\FærdighedsDelOpg5\bin\Debug\FærdighedsDelOpg5.exe.config
+C:\Software\Software\S1\Kompetencetest\Console\S1-Faerdighedsdelen\FærdighedsDelOpg5\bin\Debug\FærdighedsDelOpg5.exe
+C:\Software\Software\S1\Kompetencetest\Console\S1-Faerdighedsdelen\FærdighedsDelOpg5\bin\Debug\FærdighedsDelOpg5.pdb
+C:\Software\Software\S1\Kompetencetest\Console\S1-Faerdighedsdelen\FærdighedsDelOpg5\obj\Debug\FærdighedsDelOpg5.csproj.AssemblyReference.cache
+C:\Software\Software\S1\Kompetencetest\Console\S1-Faerdighedsdelen\FærdighedsDelOpg5\obj\Debug\FærdighedsDelOpg5.csproj.CoreCompileInputs.cache
+C:\Software\Software\S1\Kompetencetest\Console\S1-Faerdighedsdelen\FærdighedsDelOpg5\obj\Debug\FærdighedsDelOpg5.exe
+C:\Software\Software\S1\Kompetencetest\Console\S1-Faerdighedsdelen\FærdighedsDelOpg5\obj\Debug\FærdighedsDelOpg5.pdb
