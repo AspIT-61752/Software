@@ -13,7 +13,7 @@ namespace FærdighedsDelOpg3
             Random random = new Random();
 
             numberToGuess = (byte)random.Next(1, 11); // Generate a random number between 1 and 10
-            Debug.WriteLine($"numberToGuess: {numberToGuess}");
+            Debug.WriteLine($"numberToGuess: {numberToGuess}"); // For testing purposes. It will print the number to the output window in Visual Studio
 
             while (running)
             {

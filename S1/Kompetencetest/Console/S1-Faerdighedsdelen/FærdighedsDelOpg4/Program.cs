@@ -156,12 +156,11 @@ namespace FærdighedsDelOpg4
                 Console.Write($"Indtast {textInbetween} tal: ");
 
                 // Read input from user
-                try
+                if (double.TryParse(Console.ReadLine(), out result))
                 {
-                    result = double.Parse(Console.ReadLine());
                     stop = true;
                 }
-                catch (Exception e)
+                else
                 {
                     Console.WriteLine("Fejl, ikke et gyldigt input. Prøv igen.");
                 }
