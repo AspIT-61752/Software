@@ -1,0 +1,7 @@
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Kompetencetest\S1-Kompetencedelen\S1-Kompetencedelen\MovieApp\obj\Debug\MovieApp.csproj.AssemblyReference.cache
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Kompetencetest\S1-Kompetencedelen\S1-Kompetencedelen\MovieApp\obj\Debug\MovieApp.csproj.CoreCompileInputs.cache
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Kompetencetest\S1-Kompetencedelen\S1-Kompetencedelen\MovieApp\bin\Debug\MovieApp.exe.config
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Kompetencetest\S1-Kompetencedelen\S1-Kompetencedelen\MovieApp\bin\Debug\MovieApp.exe
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Kompetencetest\S1-Kompetencedelen\S1-Kompetencedelen\MovieApp\bin\Debug\MovieApp.pdb
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Kompetencetest\S1-Kompetencedelen\S1-Kompetencedelen\MovieApp\obj\Debug\MovieApp.exe
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Kompetencetest\S1-Kompetencedelen\S1-Kompetencedelen\MovieApp\obj\Debug\MovieApp.pdb

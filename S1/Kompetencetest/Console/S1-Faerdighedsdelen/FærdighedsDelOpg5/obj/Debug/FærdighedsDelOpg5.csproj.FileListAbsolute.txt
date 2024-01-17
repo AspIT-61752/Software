@@ -5,3 +5,10 @@ C:\Software\Software\S1\Kompetencetest\Console\S1-Faerdighedsdelen\FærdighedsDe
 C:\Software\Software\S1\Kompetencetest\Console\S1-Faerdighedsdelen\FærdighedsDelOpg5\obj\Debug\FærdighedsDelOpg5.csproj.CoreCompileInputs.cache
 C:\Software\Software\S1\Kompetencetest\Console\S1-Faerdighedsdelen\FærdighedsDelOpg5\obj\Debug\FærdighedsDelOpg5.exe
 C:\Software\Software\S1\Kompetencetest\Console\S1-Faerdighedsdelen\FærdighedsDelOpg5\obj\Debug\FærdighedsDelOpg5.pdb
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Kompetencetest\Console\S1-Faerdighedsdelen\FærdighedsDelOpg5\bin\Debug\FærdighedsDelOpg5.exe.config
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Kompetencetest\Console\S1-Faerdighedsdelen\FærdighedsDelOpg5\bin\Debug\FærdighedsDelOpg5.exe
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Kompetencetest\Console\S1-Faerdighedsdelen\FærdighedsDelOpg5\bin\Debug\FærdighedsDelOpg5.pdb
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Kompetencetest\Console\S1-Faerdighedsdelen\FærdighedsDelOpg5\obj\Debug\FærdighedsDelOpg5.csproj.AssemblyReference.cache
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Kompetencetest\Console\S1-Faerdighedsdelen\FærdighedsDelOpg5\obj\Debug\FærdighedsDelOpg5.csproj.CoreCompileInputs.cache
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Kompetencetest\Console\S1-Faerdighedsdelen\FærdighedsDelOpg5\obj\Debug\FærdighedsDelOpg5.exe
+C:\Users\tsh40\Desktop\School\AspIT S1\Software\S1\Kompetencetest\Console\S1-Faerdighedsdelen\FærdighedsDelOpg5\obj\Debug\FærdighedsDelOpg5.pdb
